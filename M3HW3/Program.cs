@@ -18,6 +18,7 @@
             ResultHandler r = to.Result;
             Show(r.Invoke(first, second, result));
         }
+
         public static void Show(bool b)
         {
             Console.WriteLine(b);
